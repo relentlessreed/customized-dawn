@@ -42,6 +42,7 @@
     },
     "rich_text": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -82,7 +83,7 @@
         "collection": "all",
         "products_to_show": 4,
         "show_view_all": true,
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "image_ratio": "square",
         "show_secondary_image": false,
         "add_image_padding": false,
@@ -93,9 +94,11 @@
     },
     "collage": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "video": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
             "description": "Describe the video",
@@ -104,6 +107,7 @@
         },
         "product": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "",
             "second_image": false,
@@ -113,6 +117,7 @@
         },
         "collection": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "",
             "image_padding": false,
@@ -133,6 +138,7 @@
     },
     "video": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "Video",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
@@ -142,6 +148,7 @@
     },
     "multi_column": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "column1": {
           "type": "column",
