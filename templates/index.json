@@ -29,7 +29,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/FebGaloreSmallNoFish.png",
+        "image": "shopify:\/\/shop_images\/FebGaloreBanner.jpg",
         "image_height": "large",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
