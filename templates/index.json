@@ -31,7 +31,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/IMG_8146_Resize.png",
         "image_height": "large",
-        "adapt_height_first_image": false,
+        "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
         "show_text_box": true,
         "image_overlay_opacity": 0,
