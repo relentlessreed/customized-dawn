@@ -9,6 +9,8 @@
     "colors_background_2": "#F3F3F3",
     "type_header_font": "assistant_n4",
     "type_body_font": "assistant_n4",
+    "sale_badge_color_scheme": "accent-2",
+    "sold_out_badge_color_scheme": "inverse",
     "social_instagram_link": "http:\/\/instagram.com\/februarygalore",
     "sections": {
       "announcement-bar": {
@@ -53,10 +55,9 @@
           },
           "footer-1": {
             "type": "text",
-            "disabled": true,
             "settings": {
-              "heading": "Test Text",
-              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+              "heading": "",
+              "subtext": "<p>Follow on Instagram<\/p>"
             }
           }
         },
