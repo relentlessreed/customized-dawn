@@ -52,7 +52,7 @@
           "footer-1": {
             "type": "text",
             "settings": {
-              "heading": "Heading",
+              "heading": "Test Text",
               "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
             }
           }
