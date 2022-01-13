@@ -35,7 +35,7 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo_width": 50,
+          "logo_width": 250,
           "logo_position": "top-center",
           "menu": "main-menu",
           "show_line_separator": false,
