@@ -42,6 +42,7 @@
     },
     "164197240562f499c3": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "Store News:",
         "blog": "news",
@@ -55,23 +56,23 @@
     },
     "rich_text": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Welcome!",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>We appreciate your visit, feel free to view or purchase our products in the collections below.<\/p>"
           }
         },
         "button": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": "",
@@ -166,6 +167,7 @@
       "blocks": {
         "column1": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "Shirts and Hoodies",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
