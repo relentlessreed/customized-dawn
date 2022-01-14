@@ -67,7 +67,7 @@
             "type": "link_list",
             "disabled": true,
             "settings": {
-              "heading": "",
+              "heading": "Shipping, Terms of Service, Privacy",
               "menu": "shipping-terms-of-service-privacy"
             }
           }
