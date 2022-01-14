@@ -161,7 +161,6 @@
     },
     "multi_column": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "column1": {
           "type": "column",
@@ -200,6 +199,22 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
+    },
+    "1642138439425fd0ca": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "collection": "february-galore-premium-joggers",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
     }
   },
   "order": [
@@ -209,6 +224,7 @@
     "featured_products",
     "collage",
     "video",
-    "multi_column"
+    "multi_column",
+    "1642138439425fd0ca"
   ]
 }
