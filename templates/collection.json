@@ -26,6 +26,7 @@
     },
     "16421417908ec6ecf9": {
       "type": "featured-product",
+      "disabled": true,
       "blocks": {
         "1642141790ed97d8a6-0": {
           "type": "text",
@@ -91,11 +92,80 @@
         "hide_variants": false,
         "enable_video_looping": false
       }
+    },
+    "1642141866a6c6ff79": {
+      "type": "featured-product",
+      "blocks": {
+        "164214186666dc7bfb-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "164214186666dc7bfb-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "164214186666dc7bfb-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "164214186666dc7bfb-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "164214186666dc7bfb-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "164214186666dc7bfb-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "164214186666dc7bfb-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "164214186666dc7bfb-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "164214186666dc7bfb-0",
+        "164214186666dc7bfb-1",
+        "164214186666dc7bfb-2",
+        "164214186666dc7bfb-3",
+        "164214186666dc7bfb-4",
+        "164214186666dc7bfb-5",
+        "164214186666dc7bfb-6",
+        "164214186666dc7bfb-7"
+      ],
+      "settings": {
+        "product": "unisex-heavy-blend™-hooded-sweatshirt",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
     }
   },
   "order": [
     "banner",
     "product-grid",
-    "16421417908ec6ecf9"
+    "16421417908ec6ecf9",
+    "1642141866a6c6ff79"
   ]
 }
