@@ -52,7 +52,7 @@
             "type": "text",
             "settings": {
               "heading": "",
-              "subtext": "<p>Follow us on Instagram!<\/p>"
+              "subtext": "<p><a href=\"https:\/\/www.instagram.com\/februarygalore\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/februarygalore\/\">Follow us on Instagram!<\/a><\/p>"
             }
           },
           "footer-0": {
@@ -62,17 +62,25 @@
               "heading": "Quick links",
               "menu": "footer"
             }
+          },
+          "4f941872-ab26-4456-ad2f-4882291d4fcb": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "shipping-terms-of-service-privacy"
+            }
           }
         },
         "block_order": [
           "footer-1",
-          "footer-0"
+          "footer-0",
+          "4f941872-ab26-4456-ad2f-4882291d4fcb"
         ],
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": false,
           "newsletter_heading": "Subscribe to our emails",
-          "show_social": true,
+          "show_social": false,
           "enable_country_selector": true,
           "enable_language_selector": true,
           "payment_enable": true
