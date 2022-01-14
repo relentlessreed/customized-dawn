@@ -2,6 +2,7 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": false,
         "show_collection_image": false
@@ -9,6 +10,7 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "settings": {
         "products_per_page": 16,
         "image_ratio": "adapt",
@@ -21,10 +23,79 @@
         "enable_sorting": true,
         "collapse_on_larger_devices": true
       }
+    },
+    "16421417908ec6ecf9": {
+      "type": "featured-product",
+      "blocks": {
+        "1642141790ed97d8a6-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "1642141790ed97d8a6-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "1642141790ed97d8a6-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "1642141790ed97d8a6-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1642141790ed97d8a6-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "1642141790ed97d8a6-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1642141790ed97d8a6-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "1642141790ed97d8a6-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "1642141790ed97d8a6-0",
+        "1642141790ed97d8a6-1",
+        "1642141790ed97d8a6-2",
+        "1642141790ed97d8a6-3",
+        "1642141790ed97d8a6-4",
+        "1642141790ed97d8a6-5",
+        "1642141790ed97d8a6-6",
+        "1642141790ed97d8a6-7"
+      ],
+      "settings": {
+        "product": "february-galore-flagship-t-shirt-1",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
     }
   },
   "order": [
     "banner",
-    "product-grid"
+    "product-grid",
+    "16421417908ec6ecf9"
   ]
 }
