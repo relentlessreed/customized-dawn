@@ -204,6 +204,7 @@
     },
     "1642138439425fd0ca": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured collection",
         "collection": "february-galore-premium-joggers",
