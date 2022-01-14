@@ -2,7 +2,6 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
-      "disabled": true,
       "settings": {
         "show_collection_description": false,
         "show_collection_image": false
@@ -10,7 +9,6 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
-      "disabled": true,
       "settings": {
         "products_per_page": 16,
         "image_ratio": "adapt",
@@ -95,6 +93,7 @@
     },
     "1642141866a6c6ff79": {
       "type": "featured-product",
+      "disabled": true,
       "blocks": {
         "164214186666dc7bfb-0": {
           "type": "text",
