@@ -260,7 +260,7 @@
     },
     "collection_template": {
       "empty": "No products found",
-      "title": "Collection",
+      "title": "",
       "use_fewer_filters_html": "Use fewer filters or <a class=\"{{ class }}\" href=\"{{ link }}\">clear all<\/a>"
     },
     "video": {
@@ -401,7 +401,7 @@
       "powered_by_shopify": " "
     },
     "page_titles": {
-      "collections": "Available Products"
+      "collections": "Collections"
     }
   }
 }
